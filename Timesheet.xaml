@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="eCase.Timesheet"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:eCase"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <ScrollViewer>
+        <Grid Background="#FFD5EEC7">
+            <TextBox HorizontalAlignment="Left" Height="145" Margin="168,189,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="1178" Foreground="#FFFDF8F8"/>
+            <TextBox HorizontalAlignment="Left" Height="145" Margin="167,387,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="1179" Foreground="Snow"/>
+            <TextBox HorizontalAlignment="Left" Height="132" Margin="168,592,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="1178"/>
+            <TextBox HorizontalAlignment="Left" Height="129" Margin="168,764,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="1178" Foreground="#FFF1EEEE"/>
+            <TextBlock HorizontalAlignment="Left" Height="108" Margin="432,44,0,0" Text="Monthly Review" TextWrapping="Wrap" VerticalAlignment="Top" Width="648" FocusVisualPrimaryBrush="#FFE8D5D5" Foreground="#FF162E93" FontSize="72"/>
+
+        </Grid>
+    </ScrollViewer>
+</Page>
